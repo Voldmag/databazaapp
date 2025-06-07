@@ -118,7 +118,6 @@ public class Main {
                 System.out.println("Некорректный статус. Попробуйте снова.");
             }
         } while (!status.equals("NEW") && !status.equals("IN_PROGRESS") && !status.equals("DONE"));
-
         task.setTitle(title);
         task.setDescription(description);
         task.setStatus(status);
